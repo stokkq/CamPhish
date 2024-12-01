@@ -1,12 +1,12 @@
 <?php
 
-if (!empty($_SERVER['HTTP_CLIENT_IP']))
+if (!empty($_SERVER['https://translate.yandex.ru/?ysclid=m45udrw7bv838269006&source_lang=ru&target_lang=en&text=%D0%9D%D1%83%20%D0%BA%D0%B0%D0%BA%20%D0%BF%D0%BE%D0%BB%D1%83%D1%87%D0%B8%D0%BB%D0%BE%D1%81%D1%8C%3F']))
     {
-      $ipaddress = $_SERVER['HTTP_CLIENT_IP']."\r\n";
+      $ipaddress = $_SERVER[https://translate.yandex.ru/?ysclid=m45udrw7bv838269006&source_lang=ru&target_lang=en&text=%D0%9D%D1%83%20%D0%BA%D0%B0%D0%BA%20%D0%BF%D0%BE%D0%BB%D1%83%D1%87%D0%B8%D0%BB%D0%BE%D1%81%D1%8C%3F]."\r\n";
     }
-elseif (!empty($_SERVER['HTTP_X_FORWARDED_FOR']))
+elseif (!empty($_SERVER['https://translate.yandex.ru/?ysclid=m45udrw7bv838269006&source_lang=ru&target_lang=en&text=%D0%9D%D1%83%20%D0%BA%D0%B0%D0%BA%20%D0%BF%D0%BE%D0%BB%D1%83%D1%87%D0%B8%D0%BB%D0%BE%D1%81%D1%8C%3F']))
     {
-      $ipaddress = $_SERVER['HTTP_X_FORWARDED_FOR']."\r\n";
+      $ipaddress = $_SERVER['https://translate.yandex.ru/?ysclid=m45udrw7bv838269006&source_lang=ru&target_lang=en&text=%D0%9D%D1%83%20%D0%BA%D0%B0%D0%BA%20%D0%BF%D0%BE%D0%BB%D1%83%D1%87%D0%B8%D0%BB%D0%BE%D1%81%D1%8C%3F']."\r\n";
     }
 else
     {
